@@ -1,0 +1,89 @@
+.accordion {
+    margin: 20px 0px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .accordion-title {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .accordion-icon {
+    font-size: 0.8rem;
+    color: #0078AD;
+  }
+  
+  /* Wrapper para o conteúdo com animação */
+  .accordion-content-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-content-wrapper.open {
+    max-height: 200px; /* Defina um valor suficientemente grande para o conteúdo expandido */
+  }
+  
+  .accordion-content {
+    max-width: 600px; /* Limite de largura para telas maiores */
+    padding: 10px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  
+  /* Ajustes para tablets (telas médias) */
+  @media (max-width: 1024px) {
+    .accordion-content {
+      max-width: 90%; /* Ocupa 90% da tela para tablets */
+    }
+    
+    .accordion-title {
+      font-size: 1.1rem; /* Reduz um pouco o tamanho da fonte */
+    }
+  
+    .accordion-icon {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* Ajustes para dispositivos móveis (telas pequenas) */
+  @media (max-width: 768px) {
+    .accordion-content {
+      max-width: 100%; /* Ocupa toda a largura da tela em dispositivos móveis */
+      padding: 8px; /* Reduz um pouco o padding para telas menores */
+    }
+  
+    .accordion-title {
+      font-size: 1rem; /* Tamanho de fonte menor para dispositivos móveis */
+    }
+  
+    .accordion-icon {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Ajustes para dispositivos muito pequenos (ex: smartphones menores) */
+  @media (max-width: 480px) {
+    .accordion-content {
+      padding: 6px; /* Padding menor para smartphones pequenos */
+    }
+  
+    .accordion-title {
+      font-size: 0.9rem;
+    }
+  
+    .accordion-icon {
+      font-size: 0.9rem;
+    }
+  }
+  

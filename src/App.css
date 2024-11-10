@@ -1,0 +1,57 @@
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.banner .footer  {
+  width: 100vw;
+  object-fit: contain;
+}
+.footer-mobile {
+  width: 100vw;
+  object-fit: contain;
+}
+.footer {
+  margin-top: 50px;
+}
+.footer-mobile {
+  margin-top: 50px;
+}
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.faq-section {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.faq-section h2 {
+  color: #555;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .faq-section h2 {
+    font-size: 1.2rem;
+  }
+  
+}

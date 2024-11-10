@@ -1,0 +1,71 @@
+[
+    {
+      "sectionTitle": "Introdução ao Open Finance no PagBank",
+      "items": [
+        {
+          "accordionTitle": "O que é Open Finance e como funciona no PagBank?",
+          "description": "O Open Finance é um sistema que permite o compartilhamento seguro de informações financeiras entre instituições autorizadas, com o seu consentimento. No PagBank, ele possibilita que o assistente financeiro ofereça sugestões personalizadas com base em seu perfil."
+        },
+        {
+          "accordionTitle": "Como faço para ativar o Open Finance no PagBank?",
+          "description": "Para ativar o Open Finance, você precisará fornecer seu consentimento (opt-in) dentro do app do PagBank. Isso permite que seus dados sejam compartilhados com segurança, para que o assistente financeiro ofereça recomendações alinhadas ao seu perfil."
+        },
+        {
+          "accordionTitle": "Posso cancelar minha participação no Open Finance?",
+          "description": "Sim, a qualquer momento você pode cancelar o compartilhamento de dados (opt-out) através do aplicativo do PagBank, onde poderá gerenciar seus consentimentos e revogar permissões conforme sua preferência."
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Segurança e Privacidade no Open Finance",
+      "items": [
+        {
+          "accordionTitle": "É seguro compartilhar meus dados com o Open Finance?",
+          "description": "Sim, o Open Finance no PagBank adota protocolos rigorosos de segurança, como criptografia e autenticação de dois fatores, para garantir que seus dados estejam protegidos. Apenas instituições autorizadas e que você aprovar terão acesso às suas informações."
+        },
+        {
+          "accordionTitle": "Quais dados o PagBank pode acessar com o Open Finance?",
+          "description": "Com seu consentimento, o PagBank pode acessar dados como histórico de transações, saldo de conta, perfil de crédito e outras informações financeiras. Esses dados são usados exclusivamente para oferecer recomendações personalizadas."
+        },
+        {
+          "accordionTitle": "Como posso controlar quais dados são compartilhados?",
+          "description": "No app PagBank, você pode gerenciar seus consentimentos e escolher quais informações financeiras deseja compartilhar. Caso queira limitar o acesso, basta ajustar as permissões a qualquer momento."
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Benefícios do Open Finance",
+      "items": [
+        {
+          "accordionTitle": "Como o Open Finance pode me ajudar a economizar?",
+          "description": "O Open Finance permite que o PagBank compare produtos financeiros e encontre alternativas com taxas mais vantajosas, o que pode resultar em economia em serviços como empréstimos, investimentos e pagamentos."
+        },
+        {
+          "accordionTitle": "O Open Finance pode ajudar no planejamento financeiro?",
+          "description": "Sim, com o Open Finance, o assistente financeiro do PagBank tem uma visão mais completa de sua situação financeira, podendo sugerir melhores opções de poupança, investimentos e metas de orçamento com base em seus hábitos."
+        },
+        {
+          "accordionTitle": "O que é opt-in e opt-out no Open Finance?",
+          "description": "Opt-in significa dar seu consentimento para que seus dados sejam compartilhados entre instituições financeiras no Open Finance. Opt-out é quando você decide revogar esse consentimento, encerrando o compartilhamento de informações."
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Dúvidas Comuns sobre o Assistente Financeiro",
+      "items": [
+        {
+          "accordionTitle": "Como o assistente financeiro usa meus dados no Open Finance?",
+          "description": "O assistente financeiro analisa suas transações e saldo para sugerir produtos e serviços que podem ser do seu interesse, sempre respeitando as permissões que você escolheu conceder no Open Finance."
+        },
+        {
+          "accordionTitle": "O assistente pode recomendar algo que não seja útil para mim?",
+          "description": "O assistente financeiro do PagBank é projetado para aprender sobre suas preferências e necessidades ao longo do tempo, ajustando recomendações de forma mais precisa. Caso não se interesse por uma recomendação, é possível ignorá-la e o assistente levará isso em conta em futuras sugestões."
+        },
+        {
+          "accordionTitle": "O assistente pode acessar outras contas bancárias minhas?",
+          "description": "Com seu consentimento, o Open Finance permite que o assistente acesse informações de outras contas bancárias para oferecer uma visão financeira consolidada. Esse acesso pode ser ajustado ou revogado a qualquer momento."
+        }
+      ]
+    }
+  ]
+  
